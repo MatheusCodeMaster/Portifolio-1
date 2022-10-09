@@ -296,4 +296,10 @@ footer p{
         padding-bottom: 56.25%;
         left: 0;
     }
+    .iframe-4-3 {
+        position: relative;
+        width: 98%;
+        padding-bottom: 100%;
+        left: 0;
+    }
 }
