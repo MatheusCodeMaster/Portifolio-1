@@ -99,9 +99,7 @@ body{
 #menu a:hover{
     color: black;
 }
-#main{
-    margin: 0 auto;
-}
+
 #main>h4{
     color: gray;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.281);
@@ -119,13 +117,9 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
-    margin: 0 auto;
+    margin: 10px;
 }
-#section div{
-    max-width: 100%;
-    margin: auto auto;
-    padding: 0px 10px;
-}
+
 #main img:hover{
     padding: 0px;
     opacity: 0.69;
@@ -182,11 +176,32 @@ footer p{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
 }
+
+.iframe-16-9{
+    position:relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    
+}
+.iframe-4-3{
+    position:relative;
+    width: 100%;
+    padding-bottom:100%;
+}
+.iframe-4-3 iframe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.iframe-16-9 iframe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
 #section-evento{
-    display: block;
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 10px;
 }
 @media(max-width:927px){
     
@@ -234,12 +249,10 @@ footer p{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
-        margin: 0 auto;
     }
     #section div{
         max-width: 100%;
-        padding: 20px;
-        margin: 0 auto;
+        margin: 10px;
     }
     #btn-mobile{
         background-color: transparent;
@@ -276,5 +289,11 @@ footer p{
     #header.active3>#btn-mobile>#hamburger::after{
         transform: rotate(-135deg);
         top: -7px;
+    }
+    .iframe-16-9{
+        position:relative;
+        width: 98%;
+        padding-bottom: 56.25%;
+        left: 0;
     }
 }
