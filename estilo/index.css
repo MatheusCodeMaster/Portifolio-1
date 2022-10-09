@@ -308,11 +308,11 @@ footer p{
     }
     #article{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap:0;
+        grid-template-columns: repeat(1,1fr);
+        
     }
     #article div{
-        margin: 0 10px 0 10px;
+        margin: 20px;
     }
     #main img{
         padding: 0;
