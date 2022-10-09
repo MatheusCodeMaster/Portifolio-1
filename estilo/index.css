@@ -99,7 +99,9 @@ body{
 #menu a:hover{
     color: black;
 }
-
+#main{
+    margin: 0 auto;
+}
 #main>h4{
     color: gray;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.281);
@@ -135,7 +137,6 @@ body{
 #footer{
     padding: 25px 0 25px 0;
     display: block;
-    
 }
 footer p{
     color: gray;
@@ -176,7 +177,9 @@ footer p{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
 }
-
+#article a{
+    width: 100vw;
+}
 .iframe-16-9{
     position:relative;
     width: 100%;
@@ -303,4 +306,17 @@ footer p{
         padding-bottom: 100%;
         left: 0;
     }
+    #article{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:0;
+    }
+    #article div{
+        margin: 0 10px 0 10px;
+    }
+    #main img{
+        padding: 0;
+        
+    }
+    
 }
