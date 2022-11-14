@@ -194,12 +194,14 @@ footer p{
 }
 .iframe-4-3 iframe{
     position: absolute;
+    left: 0;
     height: 100%;
     width: 100%;
     border: none;
 }
 .iframe-16-9 iframe{
     position: absolute;
+    left: 0;
     height: 100%;
     width: 100%;
     border: none;
